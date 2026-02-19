@@ -1,20 +1,23 @@
-public class Inheritance {
-    class Animal{
-        static void sound()
-        {
-          System.out.println("Animal makes sound");
-        }
-        public class Dog extends Animal {
-             void sound()
-             {
-                System.out.println("dog barks...");
-             }
-        }
-    }
-    }
-    public static void main(String[] args)
-    {
-        
-        \
+
+    class Animal {
+    void eat() {
+        System.out.println("Eating...");
     }
 }
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Barking...");
+    }
+}
+
+public class Inheritance {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.eat();   // Inherited method
+        d.bark();  // Own method
+    }
+}
+
+
+

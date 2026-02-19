@@ -25,7 +25,7 @@ public class ArrayListt
      System.out.println("Sorted fruits:: "+fruits);
     fruits.clear();
      System.out.println("After Clear :: "+fruits);
-      System.out.println("Empty Check: "+fruits.isEmpty());
+    //   System.out.println("Empty Check: "+fruits.isEmpty());
     fruits.remove("Mango");
     // fruits.remove(2);
     System.out.println("After Modifying index 2: "+fruits);
