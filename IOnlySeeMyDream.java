@@ -103,4 +103,8 @@ public class IOnlySeeMyDream extends JFrame {
             }
         });
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a8c7e27a67786bb17b7f5a4897be4b851764d37a
