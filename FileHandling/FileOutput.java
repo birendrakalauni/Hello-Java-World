@@ -8,7 +8,7 @@ public class FileOutput {
     {
         FileOutputStream fout = new FileOutputStream("test.txt");
         String str="Hello, Java World";
-        byte[] b= str.getBytes();
+        byte[] b= str.getBytes();//Converting string into byte array
         fout.write(b);
         fout.close();
         System.out.println("Data Written...");
